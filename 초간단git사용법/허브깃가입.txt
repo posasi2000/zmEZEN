@@ -1,0 +1,60 @@
+1. 깃관련 프로그램 설치
+  Git-2.25.1-64-bit.exe 설치
+  TortoiseGit-2.10.0.2-64bit.msi 설치  =>설치후 컴퓨터 재부팅
+
+
+2. 가입 , 정확한 메일주소
+https://github.com/
+  |- 3개항목  Username, Email, Password 
+  |- 가입후 본인email에서 인증확인클릭
+  |- 깃사이트 로그인/password 입력 
+      |- Create New Repository
+      |- 그린색버튼 New Repository
+
+
+    #천천히 같이 실습해요
+3.  dev저장소권장, red저장소  생성
+     https://github.com/posasi2000/dev.git
+     https://github.com/posasi2000/red.git
+
+
+	참고참고
+	git config --global user.name "aaa"
+           |- user.name 입력메세지 나오면 본인의 idname입력
+	git config --global user.email "aaa@gmail.com"
+           |- user.email 입력메세지 나오면 본인의 email입력
+
+
+4. 본인컴퓨터 작업폴더
+ workpy폴더선택 ===>오른쪽버튼선택후 Git Clone...선택
+   오.버=> Git clone...
+   URL주소:  https://github.com/본인id/dev.git 
+             .git폴더도 자동생성
+
+workpy폴더
+  |- 그린색체크 dev폴더
+        |- √ dev폴더 =>오.버 =>  Git submit -> "master" ...클릭
+        |- message주석설명 꼭기입 필수항목
+        |- check: All클릭하면 새로추가한내용들 보임
+              commit선택된상태에서 클릭 (커밋은 본인컴퓨터에 있음) 
+ 	      아직은 git허브에 안올라간상태
+         |- √ dev폴더 =>오.버 =>  TortoiseGit클릭 
+            |- pull, Fetch, Push
+            |- push클릭해야 깃허브에 완전 로드올라감
+                푸쉬클릭하면 깃허브 id, 깃허브pwd입력해야함
+		혹시 push할때 에러발생하면 pull먼저클릭후 => 새로고침 => 다시 push처리
+
+
+** 참고참고 이미 누가 쓰고 있는 origin이 있었다면 
+git remote rm origin
+제어판 모든 제어판 항목>자격증명관리자에서 git 사용자 정보 바꿔줘야함
+제어판 => 자격증명관리자
+ 일반자격증명 
+ git:https://github.com  수정날짜:오늘√
+ 편집클릭
+   |- 사용자이름:
+   |- 암호 : 
+
+참고참고
+git config --global user.name "aaa"
+git config --global user.email "aaa@gmail.com"

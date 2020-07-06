@@ -1,0 +1,92 @@
+과 정 명: 파이썬 프로그래밍과 빅데이터 분석입문
+강의시간: 09:20 ~ 10:40 
+강 의 실: 603호(6층)
+
+파이썬 프로그래밍
+  파이썬특징및기본문법, 자료형및제어문,입력및출력, 클래스
+  데이터수집및가공(데이터로딩,저장, 파일형식텍스트,이진,웹API,데이터베이스)
+  분석정보 시각화
+  정보시각화 구현 
+
+
+ 공통작업폴더  workpy
+ D:\workpy
+
+0] 파이썬사이트참고 
+https://www.python.org/
+
+1] vscode먼저 설치 후 아나콘다 설치 권장
+https://code.visualstudio.com/
+
+
+2] 아나콘다사이트
+https://www.anaconda.com/
+      ◎ Just Me (recommanded)   ===> C:\Users\USER\anaconda3 
+      ◎ All Users (requires admin privileges)
+       
+2] 아나콘다 Navigator선택
+Enviroments선택
+   +Create
+       Name:      ck (임의의이름)
+       체크Python  3.7
+ 
+Home선택
+    Applications on : ck 선택
+	|- cmd.exe Prompt  ===>install===>Launch
+        |- VS Code  ===>Launch 
+      
+
+cmd.exe Prompt선택후  버젼확인
+(ck) C:\Users\USER>python --version
+       Python 3.7.7
+
+(ck) C:\Users\USER>anaconda --version
+       anaconda Command line client (version 1.7.2)
+
+
+VS Code선택후 편집기로 이동
+ 5번째아이콘 Extensions 
+   |- python입력
+      Linting,Dubugging(multi-thread, remote)선택후 설치
+
+C:\workpy작업폴더
+    |- abc.py
+    
+참고] 쥬피터 저장경로 C:\Users\USER
+ Jupyter notebook 작업
+  |- ctrl+enter  실행
+  |- shift+enter 라인삽입
+      print(2+4) 
+      print('abc') 
+      print("xyz") 
+      print(3.1415) 
+      저장 blue.ipynb확장자
+      C:\Users\USER\blue.ipynb
+ 
+
+3] 자바jdk설치 ===> WordCloud에서 KONLP에서필요
+https://www.oracle.com
+ |- Product Help메뉴
+     |- Downloads
+         |- Java클릭
+             |- Java SE
+             |- Java(JDK) for Developers 
+
+jdk다운로드  https://www.oracle.com/java/technologies/javase-downloads.html
+자바도움말   https://docs.oracle.com/javase/7/docs/api/
+
+시스템변수
+JAVA_HOME
+ C:\Program Files\Java\jdk1.8.0_251
+
+Path클릭후 편집
+C:\Program Files\Java\jdk1.8.0_251\bin;
+
+
+파이썬참고예제
+https://nbviewer.jupyter.org/
+https://github.com/bluebibi/python-e-learning/blob/master/python3.6/mymath.py
+
+
+
+

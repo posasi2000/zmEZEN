@@ -1,0 +1,9 @@
+
+https://nbviewer.jupyter.org/
+https://github.com/bluebibi/python-e-learning/blob/master/python3.6/mymath.py
+
+
+
+https://nbviewer.jupyter.org/
+https://nbviewer.jupyter.org/github/bluebibi/python-e-learning/tree/master/python3.6/
+https://github.com/bluebibi/python-e-learning/blob/master/python3.6/mymath.py
